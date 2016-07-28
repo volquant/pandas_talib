@@ -16,7 +16,7 @@ from pandas_talib import (
 )
 # def test_pandas_talib(self):
 #    raise(NotImplementedError)
-
+# add a small comment
 basepath = os.path.dirname(__file__)
 filename = os.path.join(basepath, "..", "data", "AAPL_GOOGL_IBM_20140101_20141201.xls")
 d = pd.read_excel(filename, sheetname=None)
